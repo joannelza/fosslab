@@ -83,5 +83,9 @@ while read line; do
 	
 	$(echo "${b[0]}" $(printf "%.1f" "$(echo "$ANSWER / 24" | bc -l;)") >> SGPA2.txt)
 done < tem2.txt 
+paste SGPA1.txt SGPA2.txt | awk '{printf "%s %.1f\n",$1, ($2*23+$4*24)/47}' > CGPA.txt
 
+$(cut -f 4- c4b.txt > c4b1.txt)
+
+$(join <(sort CGPA.txt) <(sort SGPA1.txt) | join - <(sort SGPA2.txt) | join - <(sort c4b1.txt)  > RESULT.txt )
 
