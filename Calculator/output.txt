@@ -1,0 +1,60 @@
+joann@Destiny:~/destiny/fosslab/Calculator$ ./cal.sh
+
+First number
+10
+Second number
+5
+MENU
+	1.ADDITION
+	2.SUBTRACTION
+	3.MULTIPLICATION
+	4.DIVISION
+ENTER CHOICE:
+1
+Result 15
+Do you want to continue?(y/n)
+y
+First number
+12  
+Second number
+20
+MENU
+	1.ADDITION
+	2.SUBTRACTION
+	3.MULTIPLICATION
+	4.DIVISION
+ENTER CHOICE:
+2
+Result -8
+Do you want to continue?(y/n)
+y
+First number
+2
+Second number
+3
+MENU
+	1.ADDITION
+	2.SUBTRACTION
+	3.MULTIPLICATION
+	4.DIVISION
+ENTER CHOICE:
+3
+Result 6
+Do you want to continue?(y/n)
+y
+First number
+43
+Second number
+2 
+MENU
+	1.ADDITION
+	2.SUBTRACTION
+	3.MULTIPLICATION
+	4.DIVISION
+ENTER CHOICE:
+4
+Result 21
+Do you want to continue?(y/n)
+n
+joann@Destiny:~/destiny/fosslab/Calculator$ 
+
