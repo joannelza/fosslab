@@ -1,0 +1,20 @@
+//To change the ip address//
+
+-To quickly identify available Ethernet interfaces
+$ ifconfig 
+
+- To temporarily configure an IP address, you can use the ifconfig command as follows. Just modify the IP address and subnet mask to match your network requirements. 
+$ sudo ifconfig enp3s0 192.168.1.179 netmask 255.255.252.0
+
+
+-show/manipulate the IP routing table
+$ route
+
+- To configure a default gateway, you can use the route command as follows. 
+$ sudo route add default gw 192.168.1.179 wlp2s0
+
+- To verify your default gateway configuration, you can use the route command this way.
+$ route -n
+
+- To configure a wireless network interface
+$ iwconfig
